@@ -117,7 +117,7 @@ chatForm.addEventListener('submit', (e) => {
     { label: 'Cloud', icon: '☁️' },
     { label: 'Code', icon: '</>' },
   ];
-  const radius = 150;
+  const radius = 210;
   let theta = 0;
   let tiltX = 0, tiltY = 0, targetTiltX = 0, targetTiltY = 0;
 
@@ -157,7 +157,7 @@ chatForm.addEventListener('submit', (e) => {
       const angle = (i / nodes.length) * Math.PI * 2;
       const x = Math.cos(angle) * radius;
       const z = Math.sin(angle) * radius;
-      const y = Math.sin(angle * 2 + theta) * 18;
+      const y = Math.sin(angle * 2 + theta) * 26;
       return { ...n, ...project(x, y, z, cx, cy) };
     });
 
@@ -176,16 +176,16 @@ chatForm.addEventListener('submit', (e) => {
 
     // nodes
     projected.forEach(p => {
-      const r = 20 * p.scale + 8;
+      const r = 28 * p.scale + 12;
       ctx.beginPath();
       ctx.arc(p.x, p.y, r, 0, Math.PI * 2);
       ctx.fillStyle = `rgba(20,20,20,${0.75 * p.scale + 0.15})`;
       ctx.fill();
-      ctx.lineWidth = 1.5;
+      ctx.lineWidth = 2;
       ctx.strokeStyle = 'rgba(140,26,31,.6)';
       ctx.stroke();
 
-      ctx.font = `${14 * p.scale + 8}px sans-serif`;
+      ctx.font = `${20 * p.scale + 10}px sans-serif`;
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
       ctx.fillStyle = '#fff';
