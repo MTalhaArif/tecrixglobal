@@ -292,6 +292,13 @@ p{margin:0 0 1em;color:var(--text-body)}
 }
 .team-card__role{display:block;color:var(--red-light);font-weight:700;font-size:.85rem;margin-bottom:12px}
 .team-card p{font-size:.9rem}
+.team-card__phone{
+  margin-top:14px;padding-top:14px;border-top:1px solid var(--surface-border);
+  display:flex;flex-wrap:wrap;justify-content:center;gap:6px 12px;font-size:.85rem;
+}
+.team-card__phone-label{color:var(--text-dim);font-weight:700;text-transform:uppercase;font-size:.72rem;letter-spacing:.04em;width:100%}
+.team-card__phone a{color:var(--red-light);font-weight:600}
+.team-card__phone a:hover{text-decoration:underline}
 
 /* ============ CONTACT ============ */
 .contact__inner{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}

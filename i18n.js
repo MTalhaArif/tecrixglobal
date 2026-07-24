@@ -92,7 +92,8 @@ en: {
     eyebrow:"Leadership", title:"The team behind Tecrix Global",
     m1:{role:"Chief Technology Officer", desc:"Top Rated Upwork freelancer and technical co-founder — leads architecture, engineering, and AI systems delivery across every Tecrix Global build."},
     m2:{role:"Director of Marketing", desc:"Owns brand, positioning, and growth strategy — bringing Tecrix Global's products and case studies to the markets that need them."},
-    m3:{role:"Executive Director", desc:"Drives company strategy, partnerships, and operational execution across the studio's client and product portfolio."}
+    m3:{role:"Executive Director", desc:"Drives company strategy, partnerships, and operational execution across the studio's client and product portfolio."},
+    phone_label:"Phone"
   },
   contact:{
     eyebrow:"Get In Touch", title:"Let's architect your next system",
@@ -208,7 +209,8 @@ tr: {
     eyebrow:"Liderlik", title:"Tecrix Global'in arkasındaki ekip",
     m1:{role:"Teknoloji Direktörü (CTO)", desc:"Upwork'te Top Rated serbest çalışan ve teknik kurucu ortak — Tecrix Global'in geliştirdiği her üründe mimari, mühendislik ve yapay zeka sistemleri teslimatına liderlik eder."},
     m2:{role:"Pazarlama Direktörü", desc:"Marka, konumlandırma ve büyüme stratejisini yönetir — Tecrix Global'in ürünlerini ve başarı hikayelerini ihtiyaç duyan pazarlara taşır."},
-    m3:{role:"İcra Direktörü", desc:"Stüdyonun müşteri ve ürün portföyü genelinde şirket stratejisini, ortaklıkları ve operasyonel yürütmeyi yönlendirir."}
+    m3:{role:"İcra Direktörü", desc:"Stüdyonun müşteri ve ürün portföyü genelinde şirket stratejisini, ortaklıkları ve operasyonel yürütmeyi yönlendirir."},
+    phone_label:"Telefon"
   },
   contact:{
     eyebrow:"Bize Ulaşın", title:"Bir sonraki sisteminizi birlikte tasarlayalım",
@@ -324,7 +326,8 @@ ar: {
     eyebrow:"القيادة", title:"الفريق القائم على Tecrix Global",
     m1:{role:"الرئيس التنفيذي للتقنية (CTO)", desc:"مستقل مصنَّف Top Rated على Upwork وشريك مؤسِّس تقني — يقود الهندسة المعمارية والتطوير وتسليم أنظمة الذكاء الاصطناعي في كل منتج تبنيه Tecrix Global."},
     m2:{role:"مدير التسويق", desc:"يتولّى العلامة التجارية والتموضع واستراتيجية النمو — وينقل منتجات Tecrix Global ودراسات حالتها إلى الأسواق التي تحتاجها."},
-    m3:{role:"المدير التنفيذي", desc:"يقود استراتيجية الشركة والشراكات والتنفيذ التشغيلي عبر محفظة عملاء ومنتجات الاستوديو."}
+    m3:{role:"المدير التنفيذي", desc:"يقود استراتيجية الشركة والشراكات والتنفيذ التشغيلي عبر محفظة عملاء ومنتجات الاستوديو."},
+    phone_label:"الهاتف"
   },
   contact:{
     eyebrow:"تواصل معنا", title:"لنصمّم معًا نظامك القادم",
