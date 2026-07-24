@@ -58,20 +58,22 @@ chatLauncher.addEventListener('click', () => { chatPanel.hidden = !chatPanel.hid
 chatClose.addEventListener('click', () => { chatPanel.hidden = true; });
 
 const canned = [
-  { k: ['service', 'services', 'offer'], r: 'We offer Project Scope, AI Development, MVP Builder, Custom Software, UX/UI Design, Dedicated Teams, Instructional Design, 2D Animation, and AI & Automation.' },
-  { k: ['project', 'work', 'portfolio', 'app'], r: 'Check the Projects section above — Xuma, Safeword, Bloodlines, Quicky, and more, plus engagements alongside Daraz, Foodpanda, and Fave.' },
-  { k: ['agent', 'automation', 'workflow', 'n8n'], r: 'Our AI agents run on n8n and custom orchestration — they read, decide, and act across your CRM, inbox, and internal tools.' },
-  { k: ['voice'], r: 'Our voice agents handle real-time speech recognition and voice-triggered automation — the same tech behind our Safeword safety app.' },
-  { k: ['chatbot', 'chat bot', 'rag'], r: 'We build RAG-powered chatbot assistants trained on your own docs and product data, deployable on web, WhatsApp, or in-app.' },
-  { k: ['team', 'cto', 'ceo', 'founder'], r: 'Leadership: Muhammad Talha Arif (CTO), Ilhan Bisgin (Director of Marketing), and Junaid Qadir (Executive Director).' },
-  { k: ['contact', 'email', 'reach'], r: 'Reach us at info@tecrix.io, or use the contact form near the bottom of the page.' },
-  { k: ['price', 'cost', 'pricing', 'quote'], r: 'Every engagement starts with our 15-day Project Scope process to size the work accurately — book a free consultation to get a quote.' },
+  { key: 'services', k: ['service', 'services', 'offer', 'hizmet', 'خدمة', 'خدمات'] },
+  { key: 'projects', k: ['project', 'work', 'portfolio', 'app', 'proje', 'çalışma', 'uygulama', 'مشروع', 'مشاريع', 'تطبيق'] },
+  { key: 'agents', k: ['agent', 'automation', 'workflow', 'n8n', 'ajan', 'otomasyon', 'iş akışı', 'وكيل', 'أتمتة'] },
+  { key: 'voice', k: ['voice', 'ses', 'sesli', 'صوت', 'صوتي'] },
+  { key: 'chatbot', k: ['chatbot', 'chat bot', 'rag', 'sohbet', 'bot', 'دردشة', 'بوت'] },
+  { key: 'team', k: ['team', 'cto', 'ceo', 'founder', 'ekip', 'kurucu', 'فريق', 'مؤسس'] },
+  { key: 'contact', k: ['contact', 'email', 'reach', 'iletişim', 'e-posta', 'تواصل', 'بريد'] },
+  { key: 'pricing', k: ['price', 'cost', 'pricing', 'quote', 'fiyat', 'ücret', 'teklif', 'سعر', 'تكلفة', 'عرض'] },
 ];
 
 function botReply(text) {
+  const lang = window.currentLang || 'en';
+  const dict = translations[lang] || translations.en;
   const lower = text.toLowerCase();
   const found = canned.find(c => c.k.some(k => lower.includes(k)));
-  return found ? found.r : "Thanks for the message — a real deployment of this assistant would route that to our team or a live LLM. Try asking about services, projects, agents, or voice.";
+  return found ? dict.bot[found.key] : dict.bot.fallback;
 }
 
 function addMsg(text, who) {
@@ -82,13 +84,27 @@ function addMsg(text, who) {
   chatBody.scrollTop = chatBody.scrollHeight;
 }
 
-chatForm.addEventListener('submit', (e) => {
+chatForm.addEventListener('submit', async (e) => {
   e.preventDefault();
   const val = chatInput.value.trim();
   if (!val) return;
   addMsg(val, 'user');
   chatInput.value = '';
-  setTimeout(() => addMsg(botReply(val), 'bot'), 450);
+
+  const lang = window.currentLang || 'en';
+  try {
+    const res = await fetch('/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: val, lang }),
+    });
+    if (!res.ok) throw new Error('api error');
+    const data = await res.json();
+    addMsg(data.reply || botReply(val), 'bot');
+  } catch (err) {
+    // Offline / local file testing / API not deployed yet — fall back to canned replies
+    setTimeout(() => addMsg(botReply(val), 'bot'), 300);
+  }
 });
 
 // ============ 3D-ish Agent Orchestration Visual ============

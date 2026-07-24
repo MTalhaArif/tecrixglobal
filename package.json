@@ -1,0 +1,9 @@
+{
+  "name": "tecrix-global-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tecrix Global marketing site with a serverless Claude-backed chat assistant.",
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest"
+  }
+}
