@@ -24,7 +24,10 @@ en: {
     s8:{title:"2D Animation", desc:"Animated visual content that boosts product engagement and explains complex concepts through motion."},
     s9:{title:"AI & Automation", desc:"n8n workflow automation, AI agents, and AI-powered applications that streamline operations and decisions."},
     s10:{title:"Create Your Voice Agents", desc:"Custom voice AI agents built for your business — real-time speech recognition, natural conversation, and voice-triggered automation for support, IVR, and hands-free workflows."},
-    s11:{title:"AEO — AI Engine Optimization", desc:"We've moved past traditional SEO. AEO structures and positions your content for visibility inside AI search and answer engines — ChatGPT, Perplexity, Gemini — where your next customer is actually looking."}
+    s11:{title:"AEO — AI Engine Optimization", desc:"We've moved past traditional SEO. AEO structures and positions your content for visibility inside AI search and answer engines — ChatGPT, Perplexity, Gemini — where your next customer is actually looking."},
+    s12:{title:"University Admission Portals & Form Automation", desc:"End-to-end admission portals with automated document intake, eligibility checks, and AI-driven form-filling pipelines — cutting manual processing time for universities and study-abroad consultancies."},
+    s13:{title:"AI Pixar-Style Animation", desc:"Character-driven 3D animated content generated with AI — Pixar-style visuals for product explainers, marketing campaigns, and brand storytelling without a traditional animation studio budget."},
+    s14:{title:"Automated Truck Dispatch Calling", desc:"Voice AI that calls drivers and dispatchers automatically — confirming loads, relaying pickup details, and handling logistics coordination without a human on every call."}
   },
   ai:{
     eyebrow:"Generative AI & Automation",
@@ -77,8 +80,8 @@ en: {
   },
   upwork:{
     eyebrow:"Track Record", title:"Top Rated Plus on Upwork. Deep roots in e-learning.",
-    sub:'Muhammad Talha Arif — AI Architect | Instructional Designer | Articulate 360 | PM — <strong>100% Job Success</strong>, Top Rated Plus, $40K+ earned across 32 jobs.',
-    stat1:"Job Success", stat2:"Total Earnings", stat3:"Total Jobs", stat4:"Total Hours",
+    sub:'Muhammad Talha Arif — AI Architect | Instructional Designer | Articulate 360 | PM — <strong>100% Job Success</strong>, Top Rated Plus, across 32 jobs.',
+    stat1:"Job Success", stat3:"Total Jobs", stat4:"Total Hours",
     card1:{title:"AI Architect & Multi-Agent Systems", desc:"Bridging cognitive psychology, generative AI, and full-stack engineering to build intelligent systems that don't just transfer knowledge — they change behavior. Hands-on with multi-agent orchestration, advanced LLM orchestration (Claude and other leading models), and production-grade version control."},
     view_profile:"View Upwork profile →",
     card2:{title:"Instructional Design & E-Learning", desc:"Deep, proven e-learning delivery: interactive eCourses and enterprise training modules built in Articulate Storyline, Adobe Captivate, and Vyond, backed by ADDIE/SAM methodology, needs-assessment frameworks, and LMS deployment — the same discipline behind Tecrix Global's Instructional Design service line."},
@@ -141,7 +144,10 @@ tr: {
     s8:{title:"2D Animasyon", desc:"Ürün etkileşimini artıran ve karmaşık kavramları hareketle anlatan animasyonlu görsel içerikler."},
     s9:{title:"Yapay Zeka ve Otomasyon", desc:"Operasyonları ve kararları kolaylaştıran n8n iş akışı otomasyonu, yapay zeka ajanları ve yapay zeka destekli uygulamalar."},
     s10:{title:"Kendi Sesli Ajanlarınızı Oluşturun", desc:"İşletmeniz için özel geliştirilen sesli yapay zeka ajanları — gerçek zamanlı konuşma tanıma, doğal diyalog ve destek, IVR ile eller serbest iş akışları için sesle tetiklenen otomasyon."},
-    s11:{title:"AEO — Yapay Zeka Motoru Optimizasyonu", desc:"Geleneksel SEO'yu geride bıraktık. AEO, içeriğinizi ChatGPT, Perplexity ve Gemini gibi yapay zeka arama ve yanıt motorlarında görünür kılacak şekilde yapılandırır ve konumlandırır — bir sonraki müşterinizin gerçekten baktığı yerde."}
+    s11:{title:"AEO — Yapay Zeka Motoru Optimizasyonu", desc:"Geleneksel SEO'yu geride bıraktık. AEO, içeriğinizi ChatGPT, Perplexity ve Gemini gibi yapay zeka arama ve yanıt motorlarında görünür kılacak şekilde yapılandırır ve konumlandırır — bir sonraki müşterinizin gerçekten baktığı yerde."},
+    s12:{title:"Üniversite Başvuru Portalları ve Form Otomasyonu", desc:"Otomatik belge kabulü, uygunluk kontrolleri ve yapay zeka destekli form doldurma süreçleriyle uçtan uca başvuru portalları — üniversiteler ve yurt dışı eğitim danışmanlıkları için manuel işlem süresini azaltır."},
+    s13:{title:"Yapay Zeka ile Pixar Tarzı Animasyon", desc:"Yapay zeka ile üretilen karakter odaklı 3D animasyon içerikleri — geleneksel bir animasyon stüdyosu bütçesi olmadan ürün tanıtımları, pazarlama kampanyaları ve marka hikâyeleri için Pixar tarzı görseller."},
+    s14:{title:"Otomatik Kamyon Sevkiyat Aramaları", desc:"Sürücüleri ve sevkiyat görevlilerini otomatik olarak arayan sesli yapay zeka — yükleri onaylar, teslim alma detaylarını iletir ve her aramada bir insana ihtiyaç duymadan lojistik koordinasyonunu yönetir."}
   },
   ai:{
     eyebrow:"Üretken Yapay Zeka ve Otomasyon",
@@ -194,8 +200,8 @@ tr: {
   },
   upwork:{
     eyebrow:"Geçmiş Performans", title:"Upwork'te Top Rated Plus. E-öğrenmede köklü uzmanlık.",
-    sub:'Muhammad Talha Arif — Yapay Zeka Mimarı | Eğitim Tasarımcısı | Articulate 360 | PM — <strong>%100 İş Başarısı</strong>, Top Rated Plus, 32 iş genelinde 40.000$+ kazanç.',
-    stat1:"İş Başarısı", stat2:"Toplam Kazanç", stat3:"Toplam İş", stat4:"Toplam Saat",
+    sub:'Muhammad Talha Arif — Yapay Zeka Mimarı | Eğitim Tasarımcısı | Articulate 360 | PM — <strong>%100 İş Başarısı</strong>, Top Rated Plus, 32 iş genelinde.',
+    stat1:"İş Başarısı", stat3:"Toplam İş", stat4:"Toplam Saat",
     card1:{title:"Yapay Zeka Mimarisi ve Çoklu Ajan Sistemleri", desc:"Yalnızca bilgi aktarmakla kalmayıp davranışı değiştiren akıllı sistemler kurmak için bilişsel psikolojiyi, üretken yapay zekayı ve tam yığın mühendisliği bir araya getiriyor. Çoklu ajan orkestrasyonu, gelişmiş LLM orkestrasyonu (Claude ve diğer önde gelen modeller) ve üretim düzeyinde sürüm kontrolü konusunda uygulamalı deneyim."},
     view_profile:"Upwork profilini görüntüleyin →",
     card2:{title:"Eğitim Tasarımı ve E-Öğrenme", desc:"Kanıtlanmış, derinlemesine e-öğrenme sunumu: Articulate Storyline, Adobe Captivate ve Vyond ile geliştirilen etkileşimli e-kurslar ve kurumsal eğitim modülleri; ADDIE/SAM metodolojisi, ihtiyaç analizi çerçeveleri ve LMS dağıtımıyla destekleniyor — Tecrix Global'in Eğitim Tasarımı hizmet hattının arkasındaki aynı disiplin."},
@@ -258,7 +264,10 @@ ar: {
     s8:{title:"رسوم متحركة ثنائية الأبعاد", desc:"محتوى مرئي متحرّك يعزّز تفاعل المستخدم مع المنتج ويشرح المفاهيم المعقّدة من خلال الحركة."},
     s9:{title:"الذكاء الاصطناعي والأتمتة", desc:"أتمتة سير العمل عبر n8n، ووكلاء الذكاء الاصطناعي، وتطبيقات مدعومة بالذكاء الاصطناعي تُبسّط العمليات والقرارات."},
     s10:{title:"أنشئ وكلاءك الصوتيين", desc:"وكلاء صوتيون مخصّصون يُبنَون لعملك — تمييز صوتي فوري، محادثة طبيعية، وأتمتة تُفعَّل بالصوت للدعم وأنظمة الرد الآلي وسير العمل بدون استخدام اليدين."},
-    s11:{title:"AEO — تحسين الظهور في محرّكات الذكاء الاصطناعي", desc:"تجاوزنا تحسين محركات البحث التقليدي (SEO). يعمل AEO على هيكلة محتواك وتموضعه ليكون مرئيًا داخل محركات البحث والإجابة القائمة على الذكاء الاصطناعي — ChatGPT وPerplexity وGemini — حيث يبحث عميلك القادم بالفعل."}
+    s11:{title:"AEO — تحسين الظهور في محرّكات الذكاء الاصطناعي", desc:"تجاوزنا تحسين محركات البحث التقليدي (SEO). يعمل AEO على هيكلة محتواك وتموضعه ليكون مرئيًا داخل محركات البحث والإجابة القائمة على الذكاء الاصطناعي — ChatGPT وPerplexity وGemini — حيث يبحث عميلك القادم بالفعل."},
+    s12:{title:"بوابات القبول الجامعي وأتمتة تعبئة النماذج", desc:"بوابات قبول متكاملة مع استقبال آلي للمستندات، وفحص الأهلية، وأنظمة تعبئة نماذج مدعومة بالذكاء الاصطناعي — تقلّص وقت المعالجة اليدوية للجامعات ومكاتب الاستشارات الدراسية بالخارج."},
+    s13:{title:"رسوم متحركة بأسلوب Pixar بالذكاء الاصطناعي", desc:"محتوى رسوم متحركة ثلاثية الأبعاد يعتمد على الشخصيات ويُنتَج بالذكاء الاصطناعي — رسوم بأسلوب Pixar لشرح المنتجات والحملات التسويقية وسرد قصة العلامة التجارية دون الحاجة إلى ميزانية استوديو رسوم متحركة تقليدي."},
+    s14:{title:"مكالمات إرسال الشاحنات الآلية", desc:"ذكاء اصطناعي صوتي يتّصل بالسائقين ومسؤولي الإرسال تلقائيًا — يؤكّد الحمولات، وينقل تفاصيل الاستلام، ويدير تنسيق اللوجستيات دون الحاجة إلى موظف بشري في كل مكالمة."}
   },
   ai:{
     eyebrow:"الذكاء الاصطناعي التوليدي والأتمتة",
@@ -311,8 +320,8 @@ ar: {
   },
   upwork:{
     eyebrow:"سجل الإنجازات", title:"تصنيف Top Rated Plus على Upwork. خبرة عميقة في التعلّم الإلكتروني.",
-    sub:'محمد طلحة عارف — مهندس ذكاء اصطناعي | مصمّم تعليمي | Articulate 360 | مدير مشاريع — <strong>نسبة نجاح 100%</strong>، تصنيف Top Rated Plus، أكثر من 40 ألف دولار أرباح عبر 32 مشروعًا.',
-    stat1:"نسبة نجاح المهام", stat2:"إجمالي الأرباح", stat3:"إجمالي المشاريع", stat4:"إجمالي الساعات",
+    sub:'محمد طلحة عارف — مهندس ذكاء اصطناعي | مصمّم تعليمي | Articulate 360 | مدير مشاريع — <strong>نسبة نجاح 100%</strong>، تصنيف Top Rated Plus، عبر 32 مشروعًا.',
+    stat1:"نسبة نجاح المهام", stat3:"إجمالي المشاريع", stat4:"إجمالي الساعات",
     card1:{title:"هندسة الذكاء الاصطناعي وأنظمة الوكلاء المتعدّدة", desc:"يجمع بين علم النفس المعرفي والذكاء الاصطناعي التوليدي والهندسة المتكاملة لبناء أنظمة ذكية لا تكتفي بنقل المعرفة بل تغيّر السلوك. خبرة عملية في تنسيق الوكلاء المتعدّدين، وتنسيق نماذج اللغة الكبرى المتقدّمة (Claude ونماذج رائدة أخرى)، والتحكّم في الإصدارات بمستوى الإنتاج."},
     view_profile:"عرض الملف الشخصي على Upwork ←",
     card2:{title:"التصميم التعليمي والتعلّم الإلكتروني", desc:"تقديم تعلّم إلكتروني عميق وموثَّق: دورات تفاعلية ووحدات تدريب مؤسسية مبنية باستخدام Articulate Storyline وAdobe Captivate وVyond، مدعومة بمنهجية ADDIE/SAM، وأطر تقييم الاحتياجات، ونشر أنظمة إدارة التعلّم — نفس المنهجية القائمة عليها خدمة التصميم التعليمي لدى Tecrix Global."},

@@ -263,7 +263,7 @@ p{margin:0 0 1em;color:var(--text-body)}
   text-align:center;margin-top:32px;font-size:.82rem;color:var(--text-dim);
   border-top:1px solid var(--surface-border);padding-top:24px;
 }
-.upwork-stats{justify-content:center;margin-top:40px;text-align:center}
+.upwork-stats{justify-content:center;margin-top:40px;text-align:center;grid-template-columns:repeat(3,auto)}
 .upwork-stats strong{color:var(--text)}
 .upwork-card .tags span{background:var(--surface-2);color:var(--text-body)}
 .upwork-testimonials{margin-top:16px}
