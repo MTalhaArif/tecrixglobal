@@ -53,7 +53,9 @@ en: {
     p11:{badge:"Logistics · Bidding", desc:"Truck booking marketplace with a live bidding system — clients request a truck, drivers bid, clients approve. Companion driver-side app included."},
     p12:{badge:"Side Project", desc:"A local news application delivering regional news content in a clean, mobile-first reading experience."},
     p13:{badge:"Side Project", desc:"A simple, focused daily-quote app built with Flutter and Firebase."},
-    p14:{badge:"Open Source Package", desc:"An open-source Flutter package for dynamic camera color filters, image cropping, text overlays, emojis, and custom filter color lists."}
+    p14:{badge:"Open Source Package", desc:"An open-source Flutter package for dynamic camera color filters, image cropping, text overlays, emojis, and custom filter color lists."},
+    p15:{badge:"Smart Home · AI", desc:"Companion app for an AI-powered smart doorbell and home hub — HD live video with two-way talk, AI detection of people, packages, and pets, filtered alerts, and voice control for 500+ smart home devices."},
+    p16:{badge:"EdTech", desc:"Professional development platform for teachers — book one-on-one coaching sessions, join live video meetings, message coaches, and access PDF and video learning resources."}
   },
   links:{ play_store:"Play Store", app_store:"App Store", github:"GitHub", view_live:"View live →" },
   engagement:{
@@ -173,7 +175,9 @@ tr: {
     p11:{badge:"Lojistik · Teklif Sistemi", desc:"Canlı teklif sistemine sahip kamyon rezervasyon pazar yeri — müşteriler kamyon talep eder, sürücüler teklif verir, müşteriler onaylar. Sürücü tarafı için ayrı bir uygulama da dahildir."},
     p12:{badge:"Yan Proje", desc:"Temiz, mobil öncelikli bir okuma deneyimiyle bölgesel haber içeriği sunan yerel bir haber uygulaması."},
     p13:{badge:"Yan Proje", desc:"Flutter ve Firebase ile geliştirilmiş basit, odaklanmış bir günlük alıntı uygulaması."},
-    p14:{badge:"Açık Kaynak Paketi", desc:"Dinamik kamera renk filtreleri, görüntü kırpma, metin ekleme, emoji ve özel filtre renk listeleri için açık kaynaklı bir Flutter paketi."}
+    p14:{badge:"Açık Kaynak Paketi", desc:"Dinamik kamera renk filtreleri, görüntü kırpma, metin ekleme, emoji ve özel filtre renk listeleri için açık kaynaklı bir Flutter paketi."},
+    p15:{badge:"Akıllı Ev · Yapay Zekâ", desc:"Yapay zekâ destekli akıllı kapı zili ve ev merkezi için yardımcı uygulama — iki yönlü konuşmalı HD canlı video, kişi, paket ve evcil hayvanların yapay zekâ ile algılanması, filtrelenmiş bildirimler ve 500+ akıllı ev cihazı için sesli kontrol."},
+    p16:{badge:"Eğitim Teknolojisi", desc:"Öğretmenler için mesleki gelişim platformu — birebir koçluk seansları planlayın, canlı görüntülü toplantılara katılın, koçlarla mesajlaşın ve PDF ile video öğrenme kaynaklarına erişin."}
   },
   links:{ play_store:"Play Store", app_store:"App Store", github:"GitHub", view_live:"Canlı görüntüle →" },
   engagement:{
@@ -293,7 +297,9 @@ ar: {
     p11:{badge:"لوجستيات · نظام مزايدة", desc:"سوق حجز شاحنات بنظام مزايدة مباشر — يطلب العملاء شاحنة، ويقدّم السائقون عروضهم، ويوافق العملاء عليها. يتضمّن تطبيقًا مرافقًا لجانب السائق."},
     p12:{badge:"مشروع جانبي", desc:"تطبيق أخبار محلي يقدّم محتوى إخباريًا إقليميًا بتجربة قراءة نظيفة وموجّهة للجوّال أولًا."},
     p13:{badge:"مشروع جانبي", desc:"تطبيق اقتباسات يومية بسيط ومركَّز، مبني باستخدام Flutter وFirebase."},
-    p14:{badge:"حزمة مفتوحة المصدر", desc:"حزمة Flutter مفتوحة المصدر لفلاتر ألوان الكاميرا الديناميكية، وقصّ الصور، وإضافة النصوص، والرموز التعبيرية، وقوائم ألوان فلاتر مخصّصة."}
+    p14:{badge:"حزمة مفتوحة المصدر", desc:"حزمة Flutter مفتوحة المصدر لفلاتر ألوان الكاميرا الديناميكية، وقصّ الصور، وإضافة النصوص، والرموز التعبيرية، وقوائم ألوان فلاتر مخصّصة."},
+    p15:{badge:"منزل ذكي · ذكاء اصطناعي", desc:"تطبيق مرافق لجرس باب ذكي ومركز منزلي مدعوم بالذكاء الاصطناعي — فيديو مباشر عالي الدقة مع تحدث ثنائي الاتجاه، واكتشاف الأشخاص والطرود والحيوانات الأليفة بالذكاء الاصطناعي، وتنبيهات مُفلترة، وتحكم صوتي بأكثر من 500 جهاز منزلي ذكي."},
+    p16:{badge:"تقنيات التعليم", desc:"منصة تطوير مهني للمعلمين — احجز جلسات تدريب فردية، وانضم إلى اجتماعات فيديو مباشرة، وراسل المدربين، واطّلع على موارد تعليمية بصيغة PDF وفيديو."}
   },
   links:{ play_store:"متجر Play", app_store:"متجر App Store", github:"GitHub", view_live:"عرض النسخة المباشرة ←" },
   engagement:{
